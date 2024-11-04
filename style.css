@@ -1,0 +1,509 @@
+:root{
+    --main-color:#0cf4fc;
+    --white-color:#fff;
+    --black-color:#111;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' !important;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+    background-image:url('https://raw.githubusercontent.com/09april2000/rugby/main/assets/backgroundImg.jpg');
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+section{
+    height: 100vh;
+    width: 100vw;
+}
+nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#0cf4fc !important;
+    padding: 0px 20px;
+    background: #111 !important;
+}
+nav a{
+    text-decoration: none !important;
+    color:#FFF !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+nav #navItems{
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+
+nav #brandLogo{
+    width: 40vw;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.myArrow i{
+    color: #FFF !important;
+    font-size: 32px;
+    display: inline-block;
+    font-weight: 100;
+}
+#page1Left{
+    position: absolute;
+    top:10%;
+    left:5%;
+}
+#page1Right{
+    position: absolute;
+    top:10%;
+    right:5%;
+}
+#page1{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url('https://raw.githubusercontent.com/09april2000/rugby/main/assets/sec1bg.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#page1 h1{
+    text-align: center;
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform:translate(-50%,-30%);
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+#page1 button{
+    display: block;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 15px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-weight: 600;
+}
+#midSection{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--main-color);
+    gap:3;
+    height: 30vh;
+    width: 100%;
+    z-index: 1;
+}
+#midSection>h2{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 700;
+}
+#midSection h1{
+   color: #000;
+    font-size: 28px;
+    font-weight: 700;
+}
+#midLeft i{
+    position: absolute;
+    top: 50%;
+    left:-10px;
+    transform: translate(-0%,-50%);
+    font-size: 50px !important;
+    font-weight: 700;
+}
+#midRight i{
+    position: absolute;
+    top: 50%;
+    right:-10px;
+    transform: translate(-0%,-50%);
+    font-size: 50px !important;
+    font-weight: 700;
+}
+#section2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.sec2Left{
+    width: 60%;
+}
+.sec2Left img{
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+}
+.sec2Right{
+    right: 5px;
+    width: 40%;
+    gap: 1.5rem;
+    margin-right: 10px;
+}
+.sec2Right h2{
+    color: #0cf4fc;
+    font-size: 48px;
+    letter-spacing: 5px;
+}
+.sec2Right p{
+    color: #FFF;
+    max-width:400px;
+}
+
+.sec2Right button{
+    width: 100px;
+    display: block;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 15px;
+    background: #0cf4fc;
+   font-weight: 600;
+}
+
+#sec2Left i{
+    position: absolute;
+    top: 10%;
+    left:-10px;
+    font-size: 50px !important;
+    color: #0cf4fc !important;
+    font-weight: 700;
+}
+#sec2Right i{
+    position: absolute;
+    top: 85%;
+    right:10px;
+    font-size: 50px !important;
+    color: #0cf4fc !important;
+    font-weight: 700;
+}
+
+#page2Left{
+    position: absolute;
+    top:10%;
+    right:10%;
+}
+#page2Right{
+    position: absolute;
+    top:90%;
+    left:50%;
+    transform: translate(-50%,-90%);
+}
+
+
+/*SECTION 3 CSS*/
+#section3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.sec3Right{
+    width: 50%;
+    position: relative;
+}
+.sec3Right img{
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+    background-color: #0cf4fc;
+}
+.sec3Left{
+    right: 5px;
+    width: 40%;
+    gap: 1.5rem;
+    margin-left: 70px;
+}
+.sec3Left h2{
+    color: #0cf4fc;
+    font-size: 48px;
+    letter-spacing: 5px;
+}
+.sec3Left p{
+    color: #FFF;
+    max-width:400px;
+}
+
+.sec3Left button{
+    width: 100px;
+    display: block;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 15px;
+    background: #0cf4fc;
+    font-weight: 600;
+}
+
+.sec3Right #sec3Right i{
+    position: absolute;
+    top: 20px;
+    left:-30px;
+    font-size: 50px !important;
+    color: #0cf4fc !important;
+    font-weight: 700;
+}
+
+#page3Left{
+    position: absolute;
+    top:20%;
+    left:70px; 
+}
+
+#page3Left i,#page3Right i{
+    color: #0cf4fc !important;
+}
+
+#page3Right{
+    position: absolute;
+    top:95%;
+    left:50%;
+    transform: translate(-50%,-90%);
+}
+i{
+    display: inline-block;
+}
+
+/*SECTION 4 CSSS*/
+#section4{
+    position: relative;
+}
+.sec4Top{
+    width: 100%;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 80px 10px;
+}
+.sec4Top h2{
+    color: #0cf4fc;
+    font-size: 48px;
+    letter-spacing: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+.sec4Top p{
+    color: #FFF;
+    max-width:400px;
+    text-align: center;
+}
+.sec4Bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.sec4Right,.sec4Left{
+    width: 400px;
+    position: relative;
+    height: 450px;
+    background-color: #0cf4fc;
+    border-radius: 10px;
+}
+.sec4Right img,.sec4Left img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-top: -150px;
+    z-index: 99;
+}
+
+
+.sec4Right #sec4Right i{
+    position: absolute;
+    bottom: 20px;
+    right:-35px;
+    font-size: 50px !important;
+    color: #0cf4fc !important;
+    font-weight: 700;
+}
+.sec4Left #sec4Left i{
+    position: absolute;
+    top: 20px;
+    left:-35px;
+    font-size: 50px !important;
+    color: #0cf4fc !important;
+    font-weight: 700;
+}
+
+#page4Left{
+    position: absolute;
+    top:10%;
+    left:10px;
+    rotate: 90deg;
+}
+
+#page4Left i,#page4Right i{
+    color: #0cf4fc !important;
+}
+
+#page4Right{
+    position: absolute;
+    top:30%;
+    right:70px;
+    rotate:90deg;
+}
+
+
+/*----- SECTION 5 CSS -----*/
+.section5{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.sec5Bottom{
+    position: relative;
+    width: 80%;
+    background-color: #000;
+    margin:0px auto;
+    max-width: 700px;
+}
+.sec5Top{
+    margin: 20px 100px;
+    padding: 10px;
+}
+.sec5Top h2{
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 5px;
+    overflow: hidden;
+}
+
+.sec5BottomAfter{
+    position: absolute;
+    top:-10px;
+    right:-10px;
+    height: 50%;
+    width: 50%;
+    border-top:5px solid #0cf4fc;
+    border-right:5px solid #0cf4fc;
+    border-radius: 2px;
+}
+
+.sec5BottomBefore{
+    position: absolute;
+    bottom:-10px;
+    left:-10px;
+    height: 50%;
+    width: 50%;
+    border-bottom:5px solid #0cf4fc;
+    border-left:5px solid #0cf4fc;
+    border-radius: 5px;
+}
+
+.text{
+    overflow: hidden;
+}
+.text span{
+    display: inline-block;
+}
+
+/*----- SECTION 6 CSS -----*/
+
+#section6{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.sec6Top{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.sec6Top h2{
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 5px;
+    overflow: hidden;
+    font-weight: 900;
+}
+
+.sec6Bottom{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+    margin: 0px auto;
+}
+
+.box{
+    width:300px;
+    height: 500px;
+    background: #FFF;
+    padding: 10px;
+    text-align: center;
+}
+
+.box h3{
+    font-size: 18px;
+    font-weight: 800;
+}
+.box p{
+    font-size: 12px;
+    margin:8px 0px;
+}
+.box img{
+    width: 100%;
+    height: 360px !important;
+    background-color: #000;
+}
+
+.sec6Bottom button{
+    width: 100px;
+    display: block;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 15px;
+    background: #0cf4fc;
+    font-weight: 600;
+}
+
+#sec6Right i{
+    position: absolute;
+    top: 20px;
+    right:5px;
+    font-size: 50px !important;
+    color: #0cf4fc !important;
+    font-weight: 700;
+}
+#sec6Left i{
+    position: absolute;
+    top: 20px;
+    left:-10px;
+    font-size: 50px !important;
+    color: #0cf4fc !important;
+    font-weight: 700;
+}
+
+#page6Right{
+    position: absolute;
+    left:45%;
+    top:15%;
+}
