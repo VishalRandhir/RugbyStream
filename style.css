@@ -15,7 +15,7 @@ html,body{
 }
 body{
     overflow-x: hidden;
-    background-image:url('https://raw.githubusercontent.com/09april2000/rugby/main/assets/backgroundImg.jpg');
+    background-image:url('https://vishalrandhir.github.io/RugbyStream/assets/backgroundImg.jpg');
     background-position: center;
     background-repeat: repeat-y;
     background-size: cover;
@@ -74,7 +74,7 @@ nav #brandLogo{
     position: relative;
     height: 100%;
     width: 100%;
-    background-image: url('https://raw.githubusercontent.com/09april2000/rugby/main/assets/sec1bg.jpg');
+    background-image: url('https://vishalrandhir.github.io/RugbyStream/assets/sec1bg.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
