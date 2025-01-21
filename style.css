@@ -508,4 +508,25 @@ i{
     top:15%;
 }
 
+#lend{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100vw;
+}
+
+#main{
+   display: none;
+}
+
+@media screen and (min-width: 700px) {
+   #main {
+       display: block; /* Show #main */
+   }
+
+   #lend {
+       display: none; /* Hide #lend */
+   }
+}
 
