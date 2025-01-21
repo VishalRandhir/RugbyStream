@@ -4,7 +4,6 @@ function spanLetter(){
     text.split('').forEach(function(e){
         clutter+=`<span>${e}</span>`;
     });
-    console.log(clutter)
     document.querySelectorAll('.animateText').innerHTML=clutter
 }
 spanLetter();
@@ -15,7 +14,6 @@ function seprateLetter(qid){
     text.split('').forEach(function(e){
         clutter+=`<span>${e}</span>`;
     });
-    console.log(clutter)
     document.querySelector(qid).innerHTML=clutter
 }
 seprateLetter('.animateSec4');
