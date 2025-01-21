@@ -508,7 +508,7 @@ i{
     top:15%;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px){
   #main {
     display:none;
   }
