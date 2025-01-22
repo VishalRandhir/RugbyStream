@@ -514,9 +514,10 @@ i{
    align-items: center;
    height: 100vh;
    width: 100vw;
-    font-size: 24px;
+    font-size: 20px;
     font-weight:bold;
     color: #ffffff;
+    text-align:center;
 }
 
 #main{
